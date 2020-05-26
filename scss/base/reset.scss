@@ -1,0 +1,22 @@
+body{
+    width: 100px;
+    height: 100px;
+    background: $colorBlack;
+}
+.container{
+    max-width: 1110px;
+    margin: auto;
+    font: 14px $font;
+}
+h1{
+    font: $fontBig;
+}
+.intro{
+    @include flex($start: flex-start);
+}
+.introstart{
+    @include flex($align: center);
+}
+.introend{
+    @include block($display: block);
+}

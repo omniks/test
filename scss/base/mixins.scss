@@ -1,0 +1,8 @@
+@mixin flex($align: center, $start: flex-start){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $start, $align;
+}
+@mixin block($display: block){
+    display: $display;
+}
